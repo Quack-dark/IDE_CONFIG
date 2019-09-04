@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "utility": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "stack": "cpp",
+        "cmath": "cpp",
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "C_Cpp.clang_format_style": "Visual Studio",
+    }
+}
