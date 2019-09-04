@@ -3,18 +3,31 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "E:/开发工具/mingw64/include/*",
+                "E:\\开发工具\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\*",
+                "E:/开发工具/mingw64/lib/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "E:/开发工具/mingw64/include/*",
+                    "E:\\开发工具\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++\\*",
+                    "E:/开发工具/mingw64/lib/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
             "windowsSdkVersion": "10.0.17763.0",
-            "compilerPath": "F:/MinGW-W64/mingw64/bin/gdb.exe",
+            "compilerPath": "E:/开发工具/mingw64/bin/gdb.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
